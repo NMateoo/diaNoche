@@ -1,9 +1,12 @@
+body {
+    transition: .35s;
+}
+
 #zonaModo {
     position: fixed;
     top: 10px;
     right: 10px;
     width: 50px;
-    background-color: red;
 }
 
 #dia,#noche {
