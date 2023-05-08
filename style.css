@@ -1,7 +1,18 @@
 #zonaModo {
-    position: sticky;
+    position: fixed;
     top: 10px;
-    margin-left: 90vw;
-    height: 100px;
+    right: 10px;
+    width: 50px;
     background-color: red;
+}
+
+#dia,#noche {
+   width: 100%; 
+   position: absolute;
+   top: 0;
+   right: 0;
+}
+
+#dia {
+    display: none;
 }
